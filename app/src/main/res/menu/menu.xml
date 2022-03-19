@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/addActor"
+        android:orderInCategory="100"
+        android:title="Ajouter un nouvel acteur"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="100"
+        android:title="Reset"
+        android:icon="@mipmap/reset"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@mipmap/exit"
+        android:orderInCategory="101"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/loupe"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>
